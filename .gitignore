@@ -1,0 +1,32 @@
+# Ignore build files
+/target/
+/build/
+
+# Ignore IDE configuration files
+/.idea/
+/.metadata/
+/.settings/
+/.classpath
+/.project
+/*.iml
+/.vscode/
+
+# Ignore GitHub Actions workflow logs (optional)
+/.github/workflows/*_logs/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+logs/
+/*.log
+*.tmp
+*.swp
+*.bak
+*~
+
+# Ignore dependency directories (if applicable)
+/node_modules/
+/.m2/
